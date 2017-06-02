@@ -1,0 +1,22 @@
+{
+  "name": "btcwatcher",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "cron": "^1.2.1",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.1",
+    "slack-node": "^0.1.8"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-serve": "^1.4.0"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kyle Steenkamp",
+  "license": "ISC"
+}
